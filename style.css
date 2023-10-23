@@ -1,0 +1,256 @@
+/*Home Page css Start*/
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    header{
+        position:absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 200px;
+    }
+
+    header .brand{
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+
+    header .navigation-items a{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+
+    section{
+        padding: 100px 200px;
+    }
+	
+    .home{
+        min-height: 100vh;
+        justify-content: center;
+        background-image: url(./image/background3.jpg);
+        background-size: 100% 100%;
+    }
+	
+    .home .content{
+        color: #fff;
+        width: 70%;
+        margin-top: 50px;
+    }
+	
+    .home .content h1{
+        font-size: 4em;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-bottom: 40px;
+    }
+	
+    .home .content h1 span{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+	
+    .home .content p{
+        margin-bottom: 35px;
+    }
+	
+    .home .content a{
+        background: #fff;
+        padding: 15px 35px;
+        color: blue;
+        font-size: 1.1em;
+        font-weight: 500;
+        text-decoration: none;
+        border-radius: 2px;
+    }
+   
+    .maindiv{
+        width: 70%;
+        height: 400px;
+        position: absolute; 
+        background-image: url(./image/background2.jpg);
+        background-size: 100% 100%;
+        box-shadow: 1px 2px 10px white;
+        animation: slider 100s infinite linear;
+    }
+	
+    @keyframes slider{
+        0%{background-image: url(./image/Silider1.jpg);}
+		
+        20%{background-image: url(./image/Silider2.jpg);}
+		
+        25%{background-image: url(./image/Silider3.jpg);}
+    }
+    /*Ending to Home page*/
+    /*AboutMe PAGE Start page*/
+  
+  .cont{
+      width: 80%;
+      height: auto;
+      position: relative;
+      border: 4px solid blueviolet;
+      border-radius: 0px 60px 60px 0px; 
+    }
+	
+    .navigation-items a{
+        color:#000;
+        font-size: 30px;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+	
+  table{
+      width:100%;
+      margin: 40px;
+  }
+  
+  .abc{
+      font-size: 30px;
+      color:rgb(211,22,201);
+      font-weight: 600;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: oblique;
+      padding-left: 100px;
+  }
+  
+  .content{
+      font-size: 25px;
+       font-family: 'Times New Roman', Times, serif;
+      padding-left: 50px;
+  }
+  
+  fieldset{
+      border: 4px solid blue;
+      border-radius: 30px; 
+      margin: 30px;
+      
+  }
+  
+  legend{
+      color: blue;
+      font-size: 35px;
+      text-align: center;
+  }
+  
+  .image{
+      position:absolute;
+      width: 100px;
+      height: 100px;
+      right: 30px;
+      background: url(./image/Aryan\ kumar.jpg);
+      background-size: cover;
+  }
+  /*Ending page AboutMe*/
+
+  /*Documents page css start*/
+  #border{
+    border: 5px solid red;
+}
+
+.navigation-items a{
+    color:yellowgreen;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(83, 20, 143);
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*End to documants page*/
+
+/*qualifaction start page*/
+
+table{
+    border-collapse: collapse;
+}
+
+.navigation-items a{
+    color:#000;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+caption{
+    font-size: 25px;
+    color:rgb(211,22,201);
+    font-style: oblique;
+}
+
+.content{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;;
+}
+
+#bca{
+  font-size: 25px;
+  font-style: italic;
+  color: darkslateblue;
+}
+/*Ending to qualifaction*/
+    
+/*contact us to starting*/
+
+.contact{
+    width: 100%;
+    height: 100%;
+    position: relative;
+ }
+ .navigation-items a{
+      color:#000;
+      font-size: 30px;
+      text-decoration: none;
+      margin-left: 30px;
+  }
+ .abc{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.xyz{
+    font-size: 30px;
+    color:rgb(211,22,201);
+    /* font-weight: 600; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding-left: 100px;
+}
+.value{
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+fieldset{
+    border: 2px solid blue;
+    border-radius: 30px; 
+}
+legend{
+    color: blueviolet;
+    font-size: 35px;
+    text-align: center;
+}
+label{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+}
+
+/*Ending to the contect us*/
